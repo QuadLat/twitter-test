@@ -9,9 +9,9 @@ The node.js server uses the following components
   * Works with quip and Connect to help with quick prototyping
 2. quip
   * Quick prototyping
-  * Works with Connect, to let you attach any middleware
+  * Works as a Connect plugin
 3. Connect
-  * Extends node.js to allow multiple middleware types, e.g., http
+  * Extends node.js' HTTP capabilities by plugging in middleware, e.g., compression, sending headers, etc.
 
 #### AngularJS front-end
 The front-end uses $http to interface with the node.js provided REST APIs

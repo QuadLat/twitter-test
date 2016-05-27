@@ -10,6 +10,11 @@ The node.js server uses the following components
  * Helps with rejection of tweets that match one of the words from the banned list
 3. twitter
  * Connect to twitter
- 
+
+The backend API is available at:
+GET /tweets/{search}: Searches twitter for the search params, and retrieves the filtered list
+GET /banned-words: Get banned words list
+PUT /banned-words/{1}/{2}/....: Insert banned words to the list, to filter tweets
+
 #### AngularJS front-end
 The front-end uses $http to interface with the node.js provided REST APIs

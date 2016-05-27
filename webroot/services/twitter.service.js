@@ -2,7 +2,7 @@
 'use strict';
 
 angular
-	.module('app.core')
+	.module('twittertest.app')
 	.factory('twitterservice', twitterservice);
 	
 twitterservice.$inject = ['$http'];

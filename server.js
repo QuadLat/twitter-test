@@ -14,8 +14,8 @@ var server = http.createServer(function(req, res) {
 	var done = finalhandler(req, res)
 	logger(req, res, function(err) {
 		if (err) return done(err);
-		dispatcher.dispatch(req, res);
-	})
+		dispatcher.dispatch(req, res)
+	});
 });
 
 server.listen(3030, function() {

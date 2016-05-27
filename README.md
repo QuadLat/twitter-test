@@ -6,12 +6,10 @@ The node.js server uses the following components
 1. dispatch
   * Provides the ability to create regular expression based URL routing
   * Ability to create routes for multiple HTTP methods
-  * Works with quip and Connect to help with quick prototyping
-2. quip
-  * Quick prototyping
-  * Works as a Connect plugin
-3. Connect
-  * Extends node.js' HTTP capabilities by plugging in middleware, e.g., compression, sending headers, etc.
-
+2. Underscore
+ * Helps with rejection of tweets that match one of the words from the banned list
+3. twitter
+ * Connect to twitter
+ 
 #### AngularJS front-end
 The front-end uses $http to interface with the node.js provided REST APIs
